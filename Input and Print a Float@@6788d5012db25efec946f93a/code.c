@@ -5,4 +5,3 @@ int main(){
     printf("%.2f", a);
     return 0;
 }
-<
