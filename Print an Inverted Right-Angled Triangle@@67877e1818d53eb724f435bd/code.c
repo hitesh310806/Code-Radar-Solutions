@@ -7,6 +7,5 @@ int main()
         for(int c ; c <= a; c++)
         printf("*");
     }
-    printf(/n);
     return 0;
 }
