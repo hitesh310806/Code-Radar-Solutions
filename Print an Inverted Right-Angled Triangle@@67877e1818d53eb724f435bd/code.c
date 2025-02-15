@@ -6,11 +6,7 @@ int main()
     for(int r=1 ; r <= a; r--)
     {
         for(int c=1 ; c <= r; c--)
-        {
-            if(c!=r)
-                printf("* ");
-            else
-                printf("*");
+        printf("* ");
         }
     printf("\n");
     }
