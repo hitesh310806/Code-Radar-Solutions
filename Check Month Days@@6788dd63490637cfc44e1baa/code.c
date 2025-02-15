@@ -7,7 +7,7 @@ int main()
     printf("31");
     else if(a==2)
     printf("28");
-    else 
-    printf("30");
+    else if(a==2,4,6,9,11)
+    printf("30")
     return 0;
 }
