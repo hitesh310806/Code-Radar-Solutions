@@ -17,7 +17,7 @@ int main()
                      if (b != 0) {
                 printf("%d %.2f\n", a, b, (float)a / b);
             } else {
-                printf("Error! Division by zero.\n");
+                printf("error");
             }
             break;
         default:
