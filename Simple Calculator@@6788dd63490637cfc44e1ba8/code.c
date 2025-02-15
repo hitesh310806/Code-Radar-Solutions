@@ -2,7 +2,7 @@
 int main()
 {
     int a,b;
-    char c
+    char c;
     scanf("%d %d %c",&a,&b,&c);
     if(c==+)
     print("%d",a+b);
