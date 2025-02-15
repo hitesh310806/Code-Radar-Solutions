@@ -7,14 +7,18 @@ int main()
     switch(c){
          case'+'
          printf("%d %d",a,b,a+b);
+         break;
          case'-'
          printf("%d %d",a,b,a-b);
+         break;
          case'*'
          printf("%d %d",a,b,a*b);
+         break;
          case'/'
          printf("%d %d",a,b,a/b);
     }
     break:
     printf(" Error");
+    break;
     return 0;
 }
