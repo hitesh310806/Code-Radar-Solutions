@@ -11,8 +11,8 @@ int main()
                 printf("* ");
             else
                 print("*");
-    }
-    printf("\n");
         }
+    printf("\n");
+    }
     return 0;
 }
