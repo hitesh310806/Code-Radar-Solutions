@@ -15,7 +15,7 @@ int main()
         printf("%d %d",a,b,a/b);
     }
     break;
-    else
+    default:
     printf(" Error");
     return 0;
 }
