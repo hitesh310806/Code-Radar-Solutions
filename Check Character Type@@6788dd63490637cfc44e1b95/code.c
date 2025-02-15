@@ -8,7 +8,7 @@ int main()
     else if(a> -100 && a<100)
     printf("digit");
     else if(a>='`'&&a<='/');
-    printf("Specaial Character")
+    printf("Specaial Character");
     else
     printf("consonant");
     return 0;
