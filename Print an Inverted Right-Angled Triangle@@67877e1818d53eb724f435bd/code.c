@@ -7,10 +7,10 @@ int main()
     {
         for(int c=1 ; c <= r; c++)
         {
-        if(c!=r)
-        printf("* ");
-        else
-        print("*");
+            if(c!=r)
+            printf("* ");
+            else
+            print("*");
     }
     printf("\n");
         }
