@@ -5,27 +5,21 @@ int main()
     char c;
     scanf("%d %d %c",&a,&b,&c);
     switch(c){
-         case'+':
-         printf("%d",a+b);
-         break;
-         case'-':
-         printf("%d",a-b);
-         break;
-         case'*':
-         printf("%d",a*b);
-         break;
-         case'/':
-                     if (b != 0) 
-                        
-                printf("%d",a / b);
-             else 
-                printf("error");
-            
-            break;
+        case'+':
+        printf("%d",a+b);
+        break;
+        case'-':
+        printf("%d",a-b);
+        break;
+        case'*':
+        printf("%d",a*b);
+        break;
+        case'/':
+        if(b!=0)
+        printf("%d",a/b);
+        break;
         default:
-            printf("error");
-            break;
-    }
-
+        printf("error");
+    } 
     return 0;
 }
