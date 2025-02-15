@@ -4,9 +4,16 @@ int main()
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    if(c=='-')
-    printf("%d",a+b);
-    elif(c=='-')
-    printf("%d",a-b);
-    return 0;
+    switch(c){
+        case'+'
+        printf("%d %d",a,b,a+b);
+         case'-'
+        printf("%d %d",a,b,a-b);
+         case'*'
+        printf("%d %d",a,b,a*b);
+         case'/'
+        printf("%d %d",a,b,a/b);
+    }
+    else
+    printf(" Error");
 }
