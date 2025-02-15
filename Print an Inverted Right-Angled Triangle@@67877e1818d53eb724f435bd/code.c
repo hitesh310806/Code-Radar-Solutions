@@ -8,11 +8,11 @@ int main()
         for(int c=1 ; c <= r; c++)
         {
             if(c!=r)
-            printf("* ");
+                printf("* ");
             else
-            print("*");
+                print("*");
     }
-    printf("\n");
+                printf("\n");
         }
     return 0;
 }
