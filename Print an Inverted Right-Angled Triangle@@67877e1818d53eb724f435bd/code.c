@@ -1,15 +1,20 @@
 #include<stdio.h>
+
 int main()
 {
     int a;
-    scanf("%d",&a);
-    for(int r=a ; r >= a; r--)
+    scanf("%d", &a);  // Read the number of rows
+
+    // Outer loop for rows (starts from 'a' and goes down to 1)
+    for (int r = a; r >= 1; r--)
     {
-        for(int c=1 ; c <= r; c++)
+        // Inner loop for printing stars
+        for (int c = 1; c <= r; c++)
         {
-            printf("* ");
+            printf("* ");  // Print star with space
         }
+        printf("\n");  // Move to the next line after each row
     }
-    printf("\n");
+
     return 0;
 }
