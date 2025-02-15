@@ -16,9 +16,9 @@ int main()
          break;
                      if (b != 0) {
                 printf("%d %.2f\n", a, b, (float)a / b);
-            } else {
+            } else 
                 printf("error");
-            }
+            
             break;
         default:
             printf("error");
