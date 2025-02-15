@@ -14,7 +14,7 @@ int main()
          case'*':
          printf("%d",a*b);
          break;
-         case'/'
+         case'/':
                      if (b != 0) {
                         
                 printf("%.2f\n",a / b);
