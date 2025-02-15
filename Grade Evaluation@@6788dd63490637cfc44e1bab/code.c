@@ -10,7 +10,7 @@ int main()
         case'B':
         printf("Good");
         break;
-        case'c':
+        case'C':
         printf("Average");
         break;
         case'D':
