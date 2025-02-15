@@ -3,7 +3,7 @@ int main()
 {
     char a;
     scanf("%c",&a);
-    if((a=='a')||(a=='i')||(a=='e')||(a=='o')||(a=='u'))
+    if((a=='a')||(a=='i')||(a=='e')||(a=='o')||(a=='u')||(a=='O'))
     printf("Vowel");
     else if(a>0 && a<100)
     printf("Digit");
