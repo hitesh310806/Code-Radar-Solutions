@@ -11,6 +11,6 @@ int main()
     (a >= 91 && a <= 96) || (a >= 123 && a <= 126))
     printf("Specaial Character");
     else
-    printf("consonant");
+    printf("Consonant");
     return 0;
 }
