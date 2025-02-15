@@ -12,7 +12,7 @@ int main()
             else
                 print("*");
     }
-        printf("\n");
+    printf("\n");
         }
     return 0;
 }
