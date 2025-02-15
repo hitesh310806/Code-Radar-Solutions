@@ -14,12 +14,16 @@ int main()
          case'*':
          printf("%d %d",a*b);
          break;
-         case'/':
-         printf("%d %d",a/b);
-         break;
+                     if (b != 0) {
+                printf("%d / %d = %.2f\n", a, b, (float)a / b); // Use float for division result
+            } else {
+                printf("Error! Division by zero.\n");
+            }
+            break;
+        default:
+            printf("Error! Invalid operator.\n");
+            break;
     }
-    default:
-    printf(" Error");
-    break;
+
     return 0;
 }
