@@ -7,7 +7,7 @@ int main()
     {
         for(int c=1 ; c <= r; c++)
         {
-            if(c!=r)
+        if(c!=r)
         printf("* ");
         else
         print("*");
