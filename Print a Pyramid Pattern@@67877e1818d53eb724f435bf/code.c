@@ -11,7 +11,7 @@ int main()
         {
             printf(" ");
         }
-        for(int c=1;c<=a;c++)
+        for(int d=1;d<=a;d++)
         {
             printf("*");
         }
