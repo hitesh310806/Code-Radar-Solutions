@@ -3,9 +3,9 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    for(int b = 1;b<=a;b++)
+    for(int b = a;b<=a;b++)
     {
-        for(int c=2;c<=b;c++)
+        for(int c=b;c<=b;c++)
         {
             printf("*");
         }
