@@ -5,11 +5,15 @@ int main()
     scanf("%d",&a);
     for(int b=1;b<=a;b++)
     {
-        for(int c=0;c<=b;c+b)
-        {        
-        printf("*");
-        }
+        print("\n")
     }
-    printf("\n");
-    return 0;
+        for(int c=[100];c>=a;c--)
+        {
+            printf(" ")
+        }
+        for(int c=1;c<=a;c++)
+        {
+            printf("*")
+        }
+        return 0;
 }
