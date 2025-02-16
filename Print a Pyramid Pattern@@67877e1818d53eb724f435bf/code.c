@@ -4,9 +4,9 @@ int main()
     int a;
     scanf("%d",&a);
     while(i<=n){
-        printf("*");
-        i++;
+    printf("*");
+    i++;
     }
-    
+
     return 0;
 }
