@@ -7,7 +7,7 @@ int main()
     {
         printf("\n");
     }
-        for(int c=[100];c>=a;c--)
+        for(int c=10;c>=a;c--)
         {
             printf(" ");
         }
