@@ -1,27 +1,23 @@
-#include <stdio.h>
-
-int main() {
-    int num, i, isPrime = 1;
-
-    scanf("%d", &num);
-
-    if (num <= 1) {
-        isPrime = 0;  // Numbers less than or equal to 1 are not prime
-    } else {
-        // Check divisibility from 2 to the square root of num
-        for (i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                isPrime = 0;
-                break;  // No need to check further if a divisor is found
-            }
-        }
+#include<stdio.h>
+int main()
+{
+    int Prime,Not Prime,n=1
+    scanf("%d",&n)
+    if(Prime=0||Prime=1)
+    {
+        Prime=0
+    }
+    for(int i<=n;i*i;i++)
+    Prime=1
+    if(Prime==2){
+        Prime=1
     }
 
-    if (isPrime) {
-        printf("Prime ");
-    } else {
-        printf("Not Prime");
-    }
 
-    return 0;
+if prime=1{
+    printf(Prime);
+}else {
+    printf(Not prime);
+}
+return 0;
 }
