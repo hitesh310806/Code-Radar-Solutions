@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int Prime,Not Prime,n=1
+    int Prime,Not Prime,n=1;
     scanf("%d",&n);
     if(Prime=0||Prime=1)
     {
