@@ -2,7 +2,7 @@
 int main()
 {
     int Prime,Not Prime,n=1
-    scanf("%d",&n)
+    scanf("%d",&n);
     if(Prime=0||Prime=1)
     {
         Prime=0
