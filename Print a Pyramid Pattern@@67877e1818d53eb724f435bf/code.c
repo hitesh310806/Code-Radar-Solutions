@@ -1,19 +1,27 @@
-#include<stdio.h>
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    for(int b=1;b<=a;b++)
-    {
-        printf("\n");
-    }
-        for(int c;c>=a;c--)
-        {
+#include <stdio.h>
+
+int main() {
+    int rows, i, j, space;
+
+    // Prompt user for number of rows
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+
+    // Loop for each row
+    for (i = 1; i <= rows; i++) {
+        // Print spaces before stars
+        for (space = 1; space <= rows - i; space++) {
             printf(" ");
         }
-        for(int d=1;d<=a;d++)
-        {
+
+        // Print stars
+        for (j = 1; j <= (2 * i - 1); j++) {
             printf("*");
         }
-        return 0;
+
+        // Move to the next line
+        printf("\n");
+    }
+
+    return 0;
 }
